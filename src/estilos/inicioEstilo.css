@@ -1,0 +1,36 @@
+
+.contenedor-pricipal {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: #002B5B;
+    box-shadow: 2px  #E4DCCF;
+}  
+
+.yo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.link {
+    text-decoration: none;
+    color: #F9F5EB;
+    margin-bottom: -30px;
+    margin-top: -30px;
+    padding: 0;
+    text-align: left;
+}
+
+.texto-encima {
+    text-align: center;
+}
+
+.imagen-mia {
+    min-height: 400px;
+}
+
+.link-texto {
+    padding: 0;
+}
+
