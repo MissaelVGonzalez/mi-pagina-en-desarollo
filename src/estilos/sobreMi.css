@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #CBE4DE;
+}
+
+.decoracionDerecha {
+    position: absolute;
+    right: 0;
+    width: 51%;
+    height: 70px;
+    background-color: #CBE4DE;
+}
+
+.decoracionIzquierda {
+    position: absolute;
+    left: 0;
+    width: 51%;
+    height: 70px;
+    background-color: #CBE4DE;
+}
+
+html,
+body,
+.container {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreMi {
+    margin-top: 250px;
+    color: #2E4F4F;
+    z-index: 9999;
+    font-size: 1.8rem;
+}
+
+.contenedor-sobreMi {
+    display: flex;
+    width: 850px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.texto-sobreMi {
+    margin-top: 100px;
+}
+
+.info-sobreMi2 {
+    margin-top: 60px;
+}
+
+
+
